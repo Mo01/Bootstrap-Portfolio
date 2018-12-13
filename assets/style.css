@@ -1,9 +1,20 @@
-.container
+body, #intro{
+    height: 100%;
+    background: gray;
+}
+
+    .h02{
+      border-bottom: 2px gray solid;
+    }
+
+
+.ConMain
  {background-color: lightblue;
+    margin-top: 2px;
 }
 .h
 {
-    margin: 10px;
+    margin: 200px;
 }
 
 .img1{
@@ -23,8 +34,6 @@
     
 }
 
-
-/*footer
 footer{
     background: black;
     color: white;
@@ -36,46 +45,3 @@ footer p{
 }
 
 
-
-<div class="container">
-            <!--Main contact-->
-            <div class="row">
-                <div class="col-4">
-                    <div class="img2 thumbnail float-left p-3">
-                        <div>Pic1</div><img class="img-responsive" src="images/1.jpg">
-                    </div>
-                </div>
-                <div class="col-4"></div>
-                <div class="img2 thumbnail float-left p-3">
-                        <div>Pic1</div><img class="img-responsive" src="images/2.jpg">
-                    </div>
-            </div>
-
-
-
-
-            <div class="row">
-                <div class="col-4">
-                    <span class="img2 float-left p-3">
-                        <div>Pic1</div><img class="thumbnail " alt="Responsive image" src="images/3.jpg">
-                    </span>
-                </div>
-                <div class="col-4"></div>
-                <span class="img2 float-left p-3">
-                    <div>Pic2</div><img class="thumbnail " alt="Responsive image" src="images/4.jpg">
-                </span>
-            </div>
-
-        
-
-        <div class="row">
-            <div class="col-4">
-                <span class="img2 float-left p-3">
-                    <div>Pic1</div><img class="thumbnail" alt="Responsive image" src="images/5.gif">
-                </span>
-            </div>
-
-
-        </div>
-
-        </div>
