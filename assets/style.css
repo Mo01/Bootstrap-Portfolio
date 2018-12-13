@@ -24,14 +24,24 @@ body, #intro{
 
 .thumb {
     position: relative;
+
     
 }
 
-.caption {
+.caption2 {
     position: absolute;
     background: #4aaaa5;
     color: #ffffff;
-    
+    bottom: 20px;
+    left: 15px;
+    right: 15px;
+    text-align: center;
+    padding-top: 10px;
+ 
+}
+.img02{
+    min-height: 100%;
+  width: 100%;
 }
 
 footer{
