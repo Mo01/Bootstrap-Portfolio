@@ -1,16 +1,23 @@
 body, #intro{
     height: 100%;
-    background: gray;
+    background-image: url("../images/grey.jpg");
+    font-family: Arial, Helvetica, sans-serif;
 }
 
     .h02{
       border-bottom: 2px gray solid;
     }
-
+.a01{
+    background: #4aaaa5;
+    text-align: center;
+    padding: 0px 15px;
+    margin-left: -15;
+    
+}
 
 .ConMain
- {background-color: lightblue;
-    margin-top: 2px;
+ {background-color:white;
+    margin-top: 10px;
 }
 .h
 {
@@ -21,6 +28,8 @@ body, #intro{
     height: 150px !important;
     width: 150px !important;
 }
+
+
 
 .thumb {
     position: relative;
@@ -43,6 +52,7 @@ body, #intro{
     min-height: 100%;
   width: 100%;
 }
+
 
 footer{
     background: black;
