@@ -57,6 +57,11 @@ body, #intro{
   width: 100%;
 }
 
+input[type=submit]{
+    background: #4aaaa5;
+    border: none;
+    margin-left: 0 !important;
+}
 
 footer {
     background: black;
